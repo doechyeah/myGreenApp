@@ -13,10 +13,10 @@ export class DashComponent {
     map(({ matches }) => {
       if (matches) {
         return [
-          { title: 'Card 1', cols: 1, rows: 1 },
-          { title: 'Card 2', cols: 1, rows: 1 },
-          { title: 'Card 3', cols: 1, rows: 1 },
-          { title: 'Card 4', cols: 1, rows: 1 }
+          { title: 'Devices', cols: 1, rows: 1 },
+          { title: 'System Status', cols: 1, rows: 1 },
+          { title: 'Activity logs', cols: 1, rows: 1 },
+          { title: 'System Options', cols: 1, rows: 1 }
         ];
       }
 
